@@ -1,0 +1,5 @@
+/* CSS Document */
+
+@mixin font-size-mixin($size: 16) {
+	font-size: ($size * 0.1) + rem;
+}

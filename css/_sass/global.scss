@@ -1,0 +1,23 @@
+/* CSS Document */
+
+@import '../_partials/_defaults';
+@import '../_partials/_mixins';
+
+html {
+	font-size: $font-size-base;
+}
+
+body {
+	font-family: $font-family;
+	@include font-size-mixin($font-size);
+}
+
+h1 { @include font-size-mixin(24) };
+h2 { @include font-size-mixin(21) };
+h3 { @include font-size-mixin(18) };
+h4 { @include font-size-mixin(16) };
+h5 { @include font-size-mixin(14) };
+
+p, li, a { @include font-size-mixin($font-size) };
+
+// Global classes go here...
