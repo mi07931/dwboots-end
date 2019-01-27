@@ -1,0 +1,35 @@
+/* CSS Document */
+@import '../_partials/_mixins';
+
+.viewport {
+	border: #F1060A dashed 1px;
+}
+
+.row-props {
+	padding: 20px 40px;
+	
+	@media screen and (min-width: 720px) {
+		padding: 0;
+	}
+}
+
+.cell {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	img {
+		margin-top: 15px;
+		max-height: 150px;
+		flex-grow: 1 1 auto;
+	}
+	h2 {
+		margin: 15px 0;
+		color: orange;
+		@include font-size-mixin(21);
+	}
+	p {
+		text-align: center;
+		@include font-size-mixin(16);
+	}
+}
