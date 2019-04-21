@@ -1,0 +1,24 @@
+/* CSS Document */
+
+.content-area {
+	padding-bottom: 25px;
+}
+
+.banner-background {
+	background-color: #333;
+	
+	.jumbotron {
+		text-align: center;
+		background: none;
+	}
+	
+	h1, p, a {
+		color: white;
+		font-weight: 500;
+	}
+	
+	a {
+		border-color: white;
+		background-color: #333;
+	}
+}
