@@ -1,0 +1,52 @@
+/* CSS Document */
+/* CSS Document */
+/* CSS Document */
+body {
+  display: flex;
+  flex-direction: column; }
+
+.header-area {
+  padding: 15px 30px;
+  background-color: #0093C9;
+  box-shadow: 1px 1px 1px lightgray; }
+  .header-area .logo {
+    height: 30px; }
+  .header-area ul > li {
+    padding: 6px 15px 0 15px; }
+  @media screen and (min-width: 992px) {
+    .header-area ul {
+      width: 100%;
+      display: inline-block; }
+      .header-area ul li {
+        float: left; }
+        .header-area ul li:last-child {
+          float: right; } }
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-weight: 700; }
+
+.nav-item:hover .nav-link {
+  color: rgba(255, 255, 255, 0.65); }
+
+.nav-item.active .nav-link {
+  color: lightgray; }
+
+.content-area {
+  flex: 1 1 auto; }
+
+.footer-area {
+  height: 55px;
+  padding: 0 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333; }
+  .footer-area p {
+    margin: 0;
+    color: lightgray;
+    font-size: 1.2rem; }
+  .footer-area img {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px; }

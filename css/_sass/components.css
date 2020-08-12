@@ -1,0 +1,23 @@
+/* CSS Document */
+.background {
+  padding: 0;
+  height: 100%;
+  overflow: scroll;
+  background-color: #EFEFEF; }
+
+.header {
+  background-color: #2A2A2A; }
+
+.grid {
+  padding: 10rem; }
+
+.jumbotron {
+  margin: 0;
+  padding: 5rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: white; }
+
+.card-custom {
+  height: 100%;
+  padding: 1.5rem !important; }

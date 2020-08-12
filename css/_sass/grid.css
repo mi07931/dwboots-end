@@ -1,0 +1,27 @@
+/* CSS Document */
+/* CSS Document */
+.viewport {
+  border: #F1060A dashed 1px; }
+
+.row-props {
+  padding: 20px 40px; }
+  @media screen and (min-width: 720px) {
+    .row-props {
+      padding: 0; } }
+
+.cell {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .cell img {
+    margin-top: 15px;
+    max-height: 150px;
+    flex-grow: 1 1 auto; }
+  .cell h2 {
+    margin: 15px 0;
+    color: orange;
+    font-size: 2.1rem; }
+  .cell p {
+    text-align: center;
+    font-size: 1.6rem; }
